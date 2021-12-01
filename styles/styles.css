@@ -20,6 +20,10 @@
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
 }
+.great{
+    width: 100%;
+    height: 100%;
+}
 #image1-content{
     width: 90%;
     height: 450px;
