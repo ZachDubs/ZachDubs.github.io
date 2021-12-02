@@ -64,9 +64,6 @@
     position: absolute;
     left: 5%;
 }
-.oceanic{
-    width: 100%;
-}
 .whale{
     width: 100%;
 }
@@ -125,6 +122,10 @@ nav a{
     font-size: 40px;
     letter-spacing: 3px;
 }
+#content {
+    width: 80%;
+    margin: 0 auto;
+}
 body{
     background-color: #caf0f8;
     font-family: 'Oswald';
@@ -151,3 +152,35 @@ footer a{
 footer h3 a:hover{
     text-decoration: underline;
 }
+.summary{
+    padding-right: 45px;
+}
+.basic-info{
+    padding-left: 125px;
+}
+#species{
+    border-top: 5px double;
+    border-bottom: 5px double;
+    grid-column: 2/8;
+    grid-row: 1/2;
+    justify-self: stretch;
+    text-align: center;
+    margin: 100px 0;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+#species-image1{
+    padding-bottom: 50px;
+    text-align: center;
+}
+.oceanic{
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+    display:block;
+    text-align: center;
+}
+#species-image2{
+    text-align: center;
+}
+
