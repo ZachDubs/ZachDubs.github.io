@@ -20,10 +20,6 @@
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
 }
-.great{
-    width: 100%;
-    height: 100%;
-}
 #image1-content{
     width: 90%;
     height: 450px;
@@ -164,7 +160,7 @@ footer h3 a:hover{
     justify-self: center;
     align-self: center;
     width: 100%;
-    display:block;
+    display: block;
     text-align: center;
 }
 #species-image2{
@@ -192,4 +188,13 @@ footer h3 a:hover{
 .sand{
     width: 550px;
     height: 419px;
+}
+a {
+    color: #00b4d8;
+}
+#adaptations3{
+    display: block;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
